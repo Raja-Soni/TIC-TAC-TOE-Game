@@ -1,16 +1,31 @@
-# tic_tac_toe_app
+https://github.com/user-attachments/assets/6aa0b441-c8c2-4113-bb07-012c2884a5b6
+# Tic-Tac-Toe Flutter App 🎮
 
-A new Flutter project.
+A simple **Tic-Tac-Toe** game built with **Flutter** for **iOS & Android**.  
+This app demonstrates Flutter UI, state management with Provider, and interactive game mechanics.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## Features ✨
 
-A few resources to get you started if this is your first Flutter project:
+- Two-player game on the **same device**
+- **3×3 grid** UI with **current player display** (X or O)
+- Detects and highlights **winning cells**
+- **Draw detection** if no player wins
+- **Restart / Next Match** button in a **popup dialog** when a game ends
+- **Undo last move** functionality
+- **Celebration animation** (confetti) when a player wins
+- Different **splash colors** for X and O players on their moves
+- **Scoreboard** tracking wins and draws for both players
+- **Custom animated cells** for smooth UI transitions
+- **Responsive layout** that works on different screen sizes
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Technologies Used 🛠️
+
+- Flutter & Dart
+- Provider for state management
+- Confetti package for winner celebration
+- Custom widgets for UI design
+
